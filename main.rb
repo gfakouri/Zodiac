@@ -10,7 +10,7 @@ require "colorize"
 require "ruby_emoji"
 require "terminal-table"
 require "launchy"
-require "rubygems"
+#require "rubygems"
 require "nokogiri"
 require "open-uri"
 

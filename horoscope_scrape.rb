@@ -1,6 +1,6 @@
 #HASH FOR IDEAL PARTNERS
 
-require "rubygems"
+#require "rubygems"
 require "nokogiri"
 require "open-uri"
 
@@ -30,6 +30,7 @@ end
 
 def scrape(sign)
 
+    
     page = Nokogiri::HTML(open(horoscope(sign)))
 
     horoscope = page.css("div#textline")[0].text.strip.green

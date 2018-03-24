@@ -11,6 +11,8 @@ gem "colorize"
 gem "ruby_emoji"
 gem "terminal-table"
 gem "launchy"
-gem "rubygems"
+
+# gem "rubygems"
+
 gem "nokogiri"
-gem "open-uri"
+#gem "open-uri"
